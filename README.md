@@ -46,3 +46,6 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+
+## To push
+`git subtree push --prefix dist origin gh-pages`
