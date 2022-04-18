@@ -1,7 +1,7 @@
 var pages = require("gh-pages");
 
 pages.publish(
-  'public', // path to public directory
+  'build',
   {
     branch: 'gh-pages',
     repo: 'https://github.com/hosackm/hosackm.github.io.git',

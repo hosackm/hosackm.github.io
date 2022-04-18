@@ -20,11 +20,8 @@ const config = {
 	],
 	plugins: [autoprefixer(), tailwindcss()],
 	kit: {
-		adapter: adapter({
-				pages: 'build',
-				assets: 'build',
-				fallback: null
-		})
+		prerender: { default: true },
+		adapter: adapter()
 	}
 };
 
