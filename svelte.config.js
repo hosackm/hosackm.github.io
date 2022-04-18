@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import autoprefixer from "autoprefixer";
 import tailwindcss from 'tailwindcss';
@@ -20,7 +20,13 @@ const config = {
 	],
 	plugins: [autoprefixer(), tailwindcss()],
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			pages: "docs",
+			assets: "docs"
+		}),
+		paths: {
+			base: "/hosackm.github.io"
+		}
 	}
 };
 
