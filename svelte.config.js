@@ -21,12 +21,10 @@ const config = {
 	plugins: [autoprefixer(), tailwindcss()],
 	kit: {
 		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
-		}),
-		paths: {
-			base: "/hosackm.github.io"
-		}
+				pages: 'build',
+				assets: 'build',
+				fallback: null
+		})
 	}
 };
 
