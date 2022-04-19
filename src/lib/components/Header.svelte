@@ -25,7 +25,7 @@
       </div>
 
       <div class="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
-          <a href="https://github.com/hosackm" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Github">
+          <a href="https://github.com/hosackm" target="_blank" class="mx-2 text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Github">
               <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
