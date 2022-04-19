@@ -7,5 +7,5 @@ body {
 }
 
 main {
-  @apply p-4 m-8 m-auto max-w-2xl;
+  @apply p-4 m-auto max-w-2xl;
 }
