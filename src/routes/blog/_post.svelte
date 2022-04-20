@@ -5,6 +5,8 @@
   export let title;
   export let date;
   export let author;
+  export let preamble;
+  export let category;
 </script>
 
 <style lang="postcss">
@@ -13,12 +15,14 @@
   }
 </style>
 
-<section class="my-10">
-  <h1>{title}</h1>
-  <p>Published: {date}</p>
-  <p>By: {author}</p>
-</section>
+<div class="mx-auto w-4/6">
+  <p>{title}</p>
+  <p>{date}</p>
+  <p>{author}</p>
+  <p>{preamble}</p>
+  <p>{category}</p>
 
-<article class="prose prose-slate lg:prose-xl">
-  <slot/>
-</article>
+  <article class="prose prose-slate lg:prose-xl">
+    <slot/>
+  </article>
+</div>

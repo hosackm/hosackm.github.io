@@ -23,7 +23,7 @@
   });
 </script>
 
-<h1 class="py-10 text-2xl">Blog Entries</h1>
+<h1 class="py-10 text-2xl w-1/2 mx-auto">Blog Entries</h1>
 <ul>
   {#each flatPosts as post}
     <BlogCard {...post}/>
