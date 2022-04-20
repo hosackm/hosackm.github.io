@@ -1,7 +1,9 @@
 ---
 title: Test Blog Entry
-date: "04-18-2022"
+date: April 15, 2022
 author: Matt Hosack
+category: testing
+preamble: This is a test blog that should cover all of basic markdown syntax so that we can be assured our md converter and styling are working as expected.
 ---
 
 An "h1" header
