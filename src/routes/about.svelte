@@ -1,4 +1,4 @@
-<section class="bg-gray-100 dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
+<section class="bg-gray-100 dark:bg-gray-900 lg:py-10 lg:flex lg:justify-center">
   <div class="bg-white dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
     <div class="lg:w-1/2">
       <div class="h-64 bg-cover lg:rounded-lg lg:h-full" style="background-image:url('/img/surfing.jpg')"></div>
@@ -6,7 +6,9 @@
 
     <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
       <h2 class="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">Who am I?</h2>
-      <p class="mt-4 text-gray-600 dark:text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
+      <p class="mt-4 text-gray-600 dark:text-gray-400">
+        Hi, I'm Matt.  A musician and software engineer from San Francisco currently living in Berlin.  I've worked for a <a class ="text-gray-500" target="_blank" href="https://thx.com">variety</a> of <a class ="text-gray-500" target="_blank" href="https://dolby.com">audio companies</a> in my life and I'm currently working for <a class="text-gray-500" href="https://ableton.com">Ableton</a>.  I love music, technology, basketball, and craft beer.
+      </p>
 
       <div class="flex items-center mt-6 -mx-2">
         <a class="mx-2" target="_blank" href="https://www.linkedin.com/in/matthosack" aria-label="Linkden">

@@ -5,6 +5,6 @@
 
 <Header />
 
-<main>
+<main class="mx-auto w-4/6 py-10">
   <slot/>
 </main>
