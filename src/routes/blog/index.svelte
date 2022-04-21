@@ -1,28 +1,32 @@
 <script lang="ts" context="module">
-  import BlogCard from "$lib/components/BlogCard.svelte";
+	import BlogCard from '$lib/components/BlogCard.svelte';
 
-  export const load = async ({ fetch }) => {
-    const req = await fetch("/api/posts.json");
-    const posts = await req.json();
-    return { props: { posts } };
-  };
+	export const load = async ({ fetch }) => {
+		const req = await fetch('/api/posts.json');
+		const posts = await req.json();
+		return { props: { posts } };
+	};
 </script>
 
 <script lang="ts">
-  export let posts: Post[];
-  // flatten the post and it's metadata into a single level object
-  $: flatPosts = posts.map((p) => {
-    return {
-      title: p.meta.title,
-      date: p.meta.date,
-      author: p.meta.author,
-      category: p.meta.category,
-      preamble: p.meta.preamble,
-      path: p.path
-    };
-  });
+	export let posts: Post[];
+	// flatten the post and it's metadata into a single level object
+	$: flatPosts = posts.map((p) => {
+		return {
+			title: p.meta.title,
+			date: p.meta.date,
+			author: p.meta.author,
+			category: p.meta.category,
+			preamble: p.meta.preamble,
+			path: p.path
+		};
+	});
 </script>
 
+<svelte:head>
+	<title>Blog</title>
+</svelte:head>
+
 {#each flatPosts as post}
-  <BlogCard {...post}/>
+	<BlogCard {...post} />
 {/each}
