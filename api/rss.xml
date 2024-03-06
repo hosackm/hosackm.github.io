@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Matt Hosack</title>
+<description>personal website and blog</description>
+<link>https://hosack.me</link>
+<atom:link href="https://hosack.me/api/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<guid isPermaLink="true">https://hosack.me/blog/first</guid>
+<title>Hello World</title>
+<link>https://hosack.me/blog/first</link>
+<description>Say hello to my new website.</description>
+<pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

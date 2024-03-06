@@ -1,0 +1,1 @@
+const t="Matt Hosack",s="personal website and blog",e="hosack.me",o="Matt Hosack",a=3,c=[{title:"about",route:"/about"},{title:"blog",route:"/blog"},{title:"resume",route:"/resume"}];export{t as a,o as b,e as c,c as n,a as p,s};
