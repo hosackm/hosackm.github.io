@@ -2,16 +2,12 @@ baseURL = 'https://hosack.me'
 languageCode = 'en-us'
 title = 'Matt Hosack'
 
-# theme = 'paper'
-# theme = 'hello-friend-ng'
-# theme = 'archie'
 theme = 'cactus'
 
 [params]
 subtitle = 'Software Engineer'
 mainSection = 'about'
 mainSectionTitle = 'Something Else'
-# gravatar = 'hosack.matt@gmail.com'
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ligula non orci faucibus interdum. Aenean varius libero non nisl fermentum, id egestas ex interdum. Phasellus nec vestibulum lacus, eu tincidunt mi. Sed quis neque at sapien vestibulum luctus non nec lacus. Nam efficitur ligula quis sapien sodales, vel pharetra velit interdum. Sed vulputate turpis ut elit dictum, ac tristique libero tempor. Duis facilisis ante ut felis sollicitudin, a blandit ipsum vehicula."
 tocInline = true
 colortheme = 'dark'
@@ -44,7 +40,7 @@ weight = 2
 [markup.highlight]
 codeFences = true
 guessSyntax = true
-style = "catppuccin-macchiato" # or any other supported style like "dracula", "solarized-dark", etc.
+style = "catppuccin-macchiato"
 
 # Allow for html to be embedded directly
 [markup.goldmark]
