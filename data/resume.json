@@ -9,7 +9,7 @@
     "url": "http://hosack.me",
     "summary": "Matt hails from San Francisco. Before starting at Ableton, he worked for Dolby Laboratories in San Francisco as a software engineer. While his work focuses on music and audio technology, and engineering systems, his non-work interests range widely, everything from metal guitar, homebrewing, beach volleyball and indoor basketball.",
     "location": {
-      "address": "Bozener Straße 9",
+      "address": "",
       "postalCode": "10825",
       "city": "Berlin",
       "countryCode": "DE",
@@ -180,4 +180,3 @@
     "theme": "macchiato"
   }
 }
-
