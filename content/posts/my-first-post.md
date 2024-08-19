@@ -31,10 +31,11 @@ def fibonacci(n):
   if n < 3:
     return n
 
-  x, y = 1, 1
+  x, y = 0, 1
   n -= 2  # we've already calculated the first two
   while n > 0:
     x, y = y, x + y
+    n -= 1
 
   return y
 ```
