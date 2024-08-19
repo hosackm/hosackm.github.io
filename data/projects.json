@@ -1,0 +1,14 @@
+{
+    "list": [
+        {
+            "name": "Dolby Atmos Music",
+            "url": "https://www.dolby.com/experience/apple-music/",
+            "desc": "Immersive sound on Apple Music"
+        },
+        {
+            "name": "Ableton Live Packs",
+            "url": "https://ableton.com/packs",
+            "desc": "Expand your sound library with Packs."
+        }
+    ]
+}

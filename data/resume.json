@@ -1,0 +1,183 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Matthew Hosack",
+    "label": "Software Engineer",
+    "image": "https://0.gravatar.com/avatar/4ce3353ed8ab549b4bed46c8f597f615593b125a51dd7a839f98d5c865243355?size=512",
+    "email": "hosack.matt@gmail.com",
+    "phone": "+4915772113103",
+    "url": "http://hosack.me",
+    "summary": "Matt hails from San Francisco. Before starting at Ableton, he worked for Dolby Laboratories in San Francisco as a software engineer. While his work focuses on music and audio technology, and engineering systems, his non-work interests range widely, everything from metal guitar, homebrewing, beach volleyball and indoor basketball.",
+    "location": {
+      "address": "Bozener Straße 9",
+      "postalCode": "10825",
+      "city": "Berlin",
+      "countryCode": "DE",
+      "region": "Berlin"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "hosackm",
+        "url": "https://github.com/hosackm"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "matthosack",
+        "url": "https://linkedin.com/in/matthosack"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SE Ableton",
+      "location": "Berlin, Germany",
+      "description": "Ableton",
+      "position": "Software Engineer",
+      "url": "https://ableton.com",
+      "startDate": "2020-12-01",
+      "summary": "Architected, wrote, deployed, and supported a custom Continuous Integration system enabling sound designers to build content for packs, perform static analysis on devices, and automatically deploy content to Live users. I also built and deployed various internal tools for content discovery.",
+      "highlights": [
+        "Python",
+        "Go",
+        "Flask",
+        "Celery",
+        "Svelte"
+      ]
+    },
+    {
+      "name": "Dolby SE",
+      "location": "San Francisco, CA",
+      "description": "Dolby Laboratories",
+      "position": "Senior Software Engineer",
+      "url": "https://dolby.com",
+      "startDate": "2013-09-03",
+      "summary": "As a senior software engineer I lead projects delivering embedded-C SDKs for partners like Apple and Netflix to implement professional-grade Dolby audio technologies into their broadcast systems.",
+      "highlights": [
+        "C",
+        "Python",
+        "Audio Compression",
+        "Audio Codecs",
+        "Audio DSP"
+      ]
+    },
+    {
+      "name": "THX Eng",
+      "location": "San Francisco, CA",
+      "description": "THX Ltd.",
+      "position": "Systems Engineer",
+      "url": "https://thx.com",
+      "startDate": "2011-01-25",
+      "endDate": "2013-05-30",
+      "summary": "After an internship I was brought on fulltime. My responsibilities revolved around testing of home theater equipment, outfitting Lincoln vehicles with test equipment, and designing mock iOS and networked audio video receiver prototypes with the R&D team.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sonoma State University",
+      "url": "https://www.sonoma.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2005-07-01",
+      "endDate": "2011-05-01",
+      "score": "3.4",
+      "courses": []
+    },
+    {
+      "institution": "Sonoma State University",
+      "url": "https://www.sonoma.edu/",
+      "area": "Music: Jazz Studies",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2005-07-01",
+      "endDate": "2011-05-01",
+      "score": "3.4",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "C",
+        "Python",
+        "Go",
+        "Javascript",
+        "C++"
+      ]
+    },
+    {
+      "name": "Frameworks/Libraries",
+      "level": "",
+      "keywords": [
+        "Svelte",
+        "Flask",
+        "Tailwind"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "level": "",
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "Celery",
+        "Nginx",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "ffmpeg",
+        "sox",
+        "jq"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Guitar",
+        "Piano",
+        "Electronic Music",
+        "Jazz Improvisation"
+      ]
+    },
+    {
+      "name": "Homebrewing",
+      "keywords": [
+        "Craft Beer",
+        "American IPA",
+        "Fermentation"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Adam Mannegren, Software Engineer / Product Owner @ Ableton",
+      "reference": ""
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2024-08-16T18:30:00",
+    "theme": "macchiato"
+  }
+}
+
