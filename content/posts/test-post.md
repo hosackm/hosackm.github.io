@@ -1,15 +1,16 @@
 ---
-title: "My First Post"
-date: 2024-08-16T21:57:01-07:00
-toc: false
+title: "Example Post"
+date: 2024-08-20T09:05:01-07:00
 images:
 tags:
-  - untagged
+  - test
+  - example
+  - markdown
 ---
 
 # Some Title
 
-This is some content
+This is some content to test out markdown rendering.
 
 | ID  | Name        | Age | Email                | Location    |
 |-----|-------------|-----|----------------------|-------------|
@@ -28,16 +29,15 @@ This is some content
 def fibonacci(n):
   if n < 0:
     return -1
-  if n < 3:
+  if n < 2:
     return n
 
-  x, y = 0, 1
-  n -= 2  # we've already calculated the first two
-  while n > 0:
-    x, y = y, x + y
+  prev, fib = 0, 1
+  while n > 1:
+    prev, fib = fib, prev + fib
     n -= 1
 
-  return y
+  return fib
 ```
 
 This is a sentence with a [link](http://www.google.com).
