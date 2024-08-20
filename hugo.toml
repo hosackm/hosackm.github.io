@@ -8,12 +8,11 @@ disqusShortname = 'hosack-me'
     subtitle = 'Software Engineer'
     mainSection = 'about'
     mainSectionTitle = 'Writings'
-    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ligula non orci faucibus interdum. Aenean varius libero non nisl fermentum, id egestas ex interdum. Phasellus nec vestibulum lacus, eu tincidunt mi. Sed quis neque at sapien vestibulum luctus non nec lacus. Nam efficitur ligula quis sapien sodales, vel pharetra velit interdum. Sed vulputate turpis ut elit dictum, ac tristique libero tempor. Duis facilisis ante ut felis sollicitudin, a blandit ipsum vehicula."
+    description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed ligula non orci faucibus interdum. Aenean varius libero non nisl fermentum, id egestas ex interdum. Phasellus nec vestibulum lacus, eu tincidunt mi. Sed quis neque at sapien vestibulum luctus non nec lacus. Nam efficitur ligula quis sapien sodales, vel pharetra velit interdum. Sed vulputate turpis ut elit dictum, ac tristique libero tempor. Duis facilisis ante ut felis sollicitudin, a blandit ipsum vehicula.'
     tocInline = true
     colortheme = 'dark'
     showProjectsList = true
-    projectsUrl = "https://github.com/hosackm"
-    gravatar = "hosack.matt@gmail.com"
+    projectsUrl = 'https://github.com/hosackm'
 
 [params.contact]
     email = 'hosack.matt@gmail.com'
@@ -23,28 +22,28 @@ disqusShortname = 'hosack-me'
     enabled = true
 
 [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
     weight = 1
 
 [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
     weight = 3
 
 [[menu.main]]
-    identifier = "resume"
-    name = "Resume"
-    url = "/resume/"
+    identifier = 'resume'
+    name = 'Resume'
+    url = '/resume/'
     weight = 2
 
 [markup]
     [markup.highlight]
         codeFences = true
         guessSyntax = true
-        style = "catppuccin-macchiato"
+        style = 'catppuccin-macchiato'
 
 # Allow for html to be embedded directly
 [markup.goldmark]
@@ -52,13 +51,13 @@ disqusShortname = 'hosack-me'
     unsafe = true
 
 [[params.social]]
-    name = "github"
-    link = "https://github.com/hosackm"
+    name = 'github'
+    link = 'https://github.com/hosackm'
 
 [[params.social]]
-    name = "email"
-    link = "hosack.matt@gmail.com" # no need for "mailto:" at the start
+    name = 'email'
+    link = 'hosack.matt@gmail.com' # no need for 'mailto:' at the start
 
 [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/in/matthosack/"
+    name = 'linkedin'
+    link = 'https://www.linkedin.com/in/matthosack/'
