@@ -2,6 +2,7 @@ baseURL = 'https://hosack.me'
 languageCode = 'en-us'
 title = 'Matt Hosack'
 theme = 'cactus'
+disqusShortname = 'hosack-me'
 
 [params]
     subtitle = 'Software Engineer'
@@ -16,6 +17,9 @@ theme = 'cactus'
 [params.contact]
     email = 'hosack.matt@gmail.com'
     phone = '+4915772113103'
+
+[params.comments]
+    enabled = true
 
 [[menu.main]]
     identifier = "about"
