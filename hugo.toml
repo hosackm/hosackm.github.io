@@ -1,7 +1,6 @@
 baseURL = 'https://hosack.me'
 languageCode = 'en-us'
 title = 'Matt Hosack'
-
 theme = 'cactus'
 
 [params]
@@ -19,30 +18,42 @@ email = 'hosack.matt@gmail.com'
 phone = '+4915772113103'
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 1
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
 
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
-weight = 3
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
 
 [[menu.main]]
-identifier = "resume"
-name = "Resume"
-url = "/resume/"
-weight = 2
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 2
 
 [markup]
-[markup.highlight]
-codeFences = true
-guessSyntax = true
-style = "catppuccin-macchiato"
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        style = "catppuccin-macchiato"
 
 # Allow for html to be embedded directly
 [markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = true
+    unsafe = true
+
+[[params.social]]
+    name = "github"
+    link = "https://github.com/hosackm"
+
+[[params.social]]
+    name = "email"
+    link = "hosack.matt@gmail.com" # no need for "mailto:" at the start
+
+[[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/matthosack/"
