@@ -13,6 +13,7 @@ disqusShortname = 'hosack-me'
     colortheme = 'dark'
     showProjectsList = true
     projectsUrl = "https://github.com/hosackm"
+    gravatar = "hosack.matt@gmail.com"
 
 [params.contact]
     email = 'hosack.matt@gmail.com'
