@@ -45,11 +45,6 @@ disqusShortname = 'hosack-me'
         guessSyntax = true
         style = 'catppuccin-macchiato'
 
-# Allow for html to be embedded directly
-[markup.goldmark]
-[markup.goldmark.renderer]
-    unsafe = true
-
 [[params.social]]
     name = 'github'
     link = 'https://github.com/hosackm'

@@ -1,7 +1,0 @@
-{{ define "main" }}
-
-<h1>Hello</h1>
-
-<p>This is my homepage for my website.</p>
-
-{{ end }}
