@@ -38,7 +38,7 @@
       "startDate": "2020-12-01",
       "summary": "Architected, wrote, deployed, and supported a custom Continuous Integration system enabling sound designers to build content for packs, perform static analysis on devices, and automatically deploy content to Live users. I also built and deployed various internal tools for content discovery.",
       "highlights": [
-        "•"
+        "thing 1"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "endDate": "2019-11-19",
       "summary": "As a senior software engineer I lead projects delivering embedded-C SDKs for partners like Apple and Netflix to implement professional-grade Dolby audio technologies into their broadcast systems.",
       "highlights": [
-        "•"
+        "thing 1"
       ]
     },
     {
@@ -64,7 +64,7 @@
       "endDate": "2013-05-30",
       "summary": "After an internship I was brought on fulltime. My responsibilities revolved around testing of home theater equipment, outfitting Lincoln vehicles with test equipment, and designing mock iOS and networked audio video receiver prototypes with the R&D team.",
       "highlights": [
-        "•"
+        "thing 1"
       ]
     }
   ],
