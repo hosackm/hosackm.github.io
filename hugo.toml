@@ -1,4 +1,6 @@
-baseURL = 'https://hosack.me'
+# using baseURL causes issues when using custom CSS
+# baseURL = 'https://hosack.me'
+relativeURLs = true
 languageCode = 'en-us'
 title = 'Matt Hosack'
 theme = 'cactus'
