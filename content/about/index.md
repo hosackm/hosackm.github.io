@@ -1,6 +1,13 @@
 ---
 title: "About"
-draft: false
 ---
 
-Born and raised in the San Francisco Bay Area, I bring 13 years of software engineering expertise, spanning audio DSP, web application development, and backend systems. My journey started at THX Ltd., where I transitioned from intern to full-time engineer, followed by 7 years at Dolby Laboratories, where I advanced to senior software engineer. In Berlin, I contributed to Ableton’s packs infrastructure, focusing on internal web systems for the past 4 years. I’m proficient in Python, Go, and C, with strong experience in Postgres, MongoDB, NGINX, and API frameworks like Flask and FastAPI. While I have deep roots in audio technologies, my current focus is backend engineering in Go, with a long-term goal of leveraging my communication skills and collaborative nature in a management role.
+{{< figure src="cafe_am_neuen_see.jpg" alt="Matt drinking a beer on a rowboat at Cafe am neuen See in Berlin" >}}
+
+I'm Matt. I was born and rasied in the San Francisco Bay Area. I've been playing music since I was 5 years old. When I got my first electric guitar at age 11, I set off on a journey to understand how a distortion pedal worked. I studied Electrical Engineering and Music at [Sonoma State University](https://sonoma.edu). It was during this time that I fell in love with software engineering and recording technologies like Ableton while spending late nights in the music department's recording studio.
+
+After school I had a short stint at George Lucas's [THX](https://www.thx.com) and then began my software engineering career at [Dolby](https://www.dolby.com). I worked on encoding technologies used by Apple and Netflix to stream Spatial Audio to your living room. After that I lead the engineering effort to deliver the first containerized audio processing workflow used to encode [Dolby Atmos Music](https://www.dolby.com/experience/apple-music).
+
+In the throes of the 2020 pandemic, I moved to Berlin where I could make use of my Swiss/American dual-citizenship and start a life in Europe. I accepted a software engineering position at [Ableton](https://ableton.com) where I could give back to the company that had inspired me musically for years. I worked on the Packs team -- building systems to ease the burden put on sound designers in the process of development, testing, and deployment of sound content. This involved building tools for indexing and searching content, continuously integrating changes commited by designers, and developing static analysis tooling to validate the instruments, devices, and samples in our catalog.
+
+When I'm not working I enjoy playing piano and guitar, playing basketball and volleyball, and [homebrewing beers](https://share.brewfather.app/T5XOsCrEYNkTCT) to share with friends and family.
