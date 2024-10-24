@@ -5,15 +5,14 @@
     "label": "Software Engineer",
     "image": "https://gravatar.com/avatar/e2a23974c61cee025da80890725ea7f9?size=256",
     "email": "hosack.matt@gmail.com",
-    "phone": "+4915772113103",
     "url": "http://hosack.me",
-    "summary": "Born and raised in the San Francisco Bay Area, I bring 13 years of software engineering expertise, spanning audio DSP, web application development, and backend systems. In Berlin, I contributed to Ableton’s packs infrastructure, focusing on internal web systems for the past 4 years. I’m proficient in Python, Go, and C, with strong experience in Postgres, MongoDB, NGINX, and API frameworks like Flask and FastAPI. While I have deep roots in audio technologies, my current focus is backend engineering in Go, with a long-term goal of leveraging my communication skills and collaborative nature in a management role.",
+    "summary": "Software Engineer with over 10 years of experience. I'm a domain expert in digital audio and music production technology with experience building web applications after working at multiple market-leading companies. I thrive in collaborative environments and enjoy mentoring younger talent. I'm eager to apply my skills outside the audio/music space, where I can further develop my expertise in web application development and contribute to innovative teams.",
     "location": {
       "address": "",
-      "postalCode": "10825",
+      "postalCode": "",
       "city": "Berlin",
       "countryCode": "DE",
-      "region": "Berlin"
+      "region": ""
     },
     "profiles": [
       {
@@ -36,9 +35,17 @@
       "position": "Software Engineer",
       "url": "https://ableton.com",
       "startDate": "2020-12-01",
-      "summary": "Architected, wrote, deployed, and supported a custom Continuous Integration system enabling sound designers to build content for packs, perform static analysis on devices, and automatically deploy content to Live users. I also built and deployed various internal tools for content discovery.",
+      "endDate": "2024-09-01",
+      "summary": "",
       "highlights": [
-        "thing 1"
+        "Architechted and maintained custom CI solution to manage Pack contents throughout lifecycle.",
+        "Maintained static analysis tooling for validating and repairing Pack content.",
+        "Manually optimized database queries to reduce homepage load time over 30x.",
+        "Wrote custom JSON caching system to reduce data retrieval by additional 3x.",
+        "Developed fullstack application to index music content from all packs and make searchable.",
+        "Maintained internal Go REST client for Ableton Packs API.",
+        "Migrated entire Ableton Packs' infrastructure from Mac VMs to Linux.",
+        "Migrated legacy Python 2 code to Python 3."
       ]
     },
     {
@@ -47,11 +54,13 @@
       "description": "Dolby Laboratories",
       "position": "Senior Software Engineer",
       "url": "https://dolby.com",
-      "startDate": "2013-09-03",
+      "startDate": "2016-12-01",
       "endDate": "2019-11-19",
-      "summary": "As a senior software engineer I lead projects delivering embedded-C SDKs for partners like Apple and Netflix to implement professional-grade Dolby audio technologies into their broadcast systems.",
+      "summary": "",
       "highlights": [
-        "thing 1"
+        "Designed and implemented ANSI-C SDK for partners such as Apple and Netflix to implement Dolby Atmos into broadcast and streaming solutions.",
+        "Lead team to develop first containerized audio processing workflow for cloud-based encoding of Atmos Music on Hybrik (now dolby.io).",
+        "Lead teams to develop SDKs, sample applications, technical documentation, and testing suites for licensees integrating audio techologies into their devices and platforms."
       ]
     },
     {
@@ -60,11 +69,13 @@
       "description": "THX Ltd.",
       "position": "Systems Engineer",
       "url": "https://thx.com",
-      "startDate": "2011-01-25",
+      "startDate": "2011-10-01",
       "endDate": "2013-05-30",
-      "summary": "After an internship I was brought on fulltime. My responsibilities revolved around testing of home theater equipment, outfitting Lincoln vehicles with test equipment, and designing mock iOS and networked audio video receiver prototypes with the R&D team.",
+      "summary": "",
       "highlights": [
-        "thing 1"
+        "Wrote software for Raspberry Pi to control connected peripherals over I2C, SPI, and UART buses including HDMI switches and DSP Filter coefficients.",
+        "Tested A/V receivers against THX Certification Standards.",
+        "Wrote Python scripts for automating audio test harnasses."
       ]
     }
   ],
@@ -72,18 +83,8 @@
     {
       "institution": "Sonoma State University",
       "url": "https://www.sonoma.edu/",
-      "area": "Electrical Engineering",
+      "area": "in Electrical Engineering, [84/87 units completed]",
       "studyType": "Bachelor of Science",
-      "startDate": "2005-07-01",
-      "endDate": "2011-05-01",
-      "score": "3.4",
-      "courses": []
-    },
-    {
-      "institution": "Sonoma State University",
-      "url": "https://www.sonoma.edu/",
-      "area": "Music: Jazz Studies",
-      "studyType": "Bachelor of Arts",
       "startDate": "2005-07-01",
       "endDate": "2011-05-01",
       "score": "3.4",
@@ -95,40 +96,73 @@
       "name": "Languages",
       "level": "",
       "keywords": [
-        "C",
         "Python",
+        "C",
         "Go",
-        "Javascript",
-        "C++"
+        "C++",
+        "HTML/JS/CSS",
+        "Zig"
       ]
     },
     {
-      "name": "Frameworks/Libraries",
-      "level": "",
-      "keywords": [
-        "Svelte",
-        "Flask",
-        "Tailwind"
-      ]
-    },
-    {
-      "name": "Technologies",
+      "name": "Database + Persistence",
       "level": "",
       "keywords": [
         "PostgreSQL",
         "MongoDB",
-        "Celery",
-        "Nginx",
-        "Docker"
+        "SQLite",
+        "Redis"
       ]
     },
     {
-      "name": "Tools",
+      "name": "Frameworks + Frontends",
       "level": "",
       "keywords": [
-        "ffmpeg",
-        "sox",
-        "jq"
+        "Flask",
+        "Fast",
+        "Huma",
+        "Svelte"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Perforce",
+        "SVN"
+      ]
+    },
+    {
+      "name": "Dev Ops",
+      "level": "",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Prometheus",
+        "Grafana",
+        "Fabric"
+      ]
+    },
+    {
+      "name": "Build Tools",
+      "level": "",
+      "keywords": [
+        "CMake",
+        "Ninja",
+        "Make"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "",
+      "keywords": [
+        "Nginx",
+        "REST",
+        "Websockets",
+        "Celery",
+        "gRPC"
       ]
     }
   ],
@@ -140,31 +174,6 @@
     {
       "language": "German",
       "fluency": "Conversational"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Music",
-      "keywords": [
-        "Guitar",
-        "Piano",
-        "Electronic Music",
-        "Jazz Improvisation"
-      ]
-    },
-    {
-      "name": "Homebrewing",
-      "keywords": [
-        "Craft Beer",
-        "American IPA",
-        "Fermentation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Adam Mannegren, Software Engineer / Product Owner @ Ableton",
-      "reference": ""
     }
   ],
   "projects": [],
