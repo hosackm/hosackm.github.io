@@ -14,7 +14,6 @@ disqusShortname = 'hosack-me'
     tocInline = true
     colortheme = 'dark'
     showProjectsList = true
-    projectsUrl = 'https://github.com/hosackm'
 
 [params.contact]
     email = 'hosack.matt@gmail.com'
