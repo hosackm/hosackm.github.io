@@ -5,6 +5,7 @@ languageCode = 'en-us'
 title = 'Matt Hosack'
 theme = 'cactus'
 disqusShortname = 'hosack-me'
+enableGitInfo = true
 
 [params]
     subtitle = 'Software Engineer'

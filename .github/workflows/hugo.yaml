@@ -58,8 +58,6 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          HUGO_COMMIT_HASH=$(git rev-parse HEAD) \
-          HUGO_COMMIT_URL="https://github.com/${{ github.repository }}/commit/${HUGO_COMMIT_HASH}" \
           hugo \
             --gc \
             --minify \
