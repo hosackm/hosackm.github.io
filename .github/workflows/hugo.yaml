@@ -52,20 +52,14 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Get latest commit details
-        id: commit_info
-        run: |
-          HUGO_COMMIT_HASH=$(git rev-parse HEAD)
-          HUGO_COMMIT_URL="https://github.com/${{ github.repository }}/commit/${HUGO_COMMIT_HASH}"
-          echo "hugo_commit_hash=${HUGO_COMMIT_HASH}" >> $GITHUB_ENV
-          echo "hugo_commit_url=${HUGO_COMMIT_URL}" >> $GITHUB_ENV
-
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
+          HUGO_COMMIT_HASH=$(git rev-parse HEAD)
+          HUGO_COMMIT_URL="https://github.com/${{ github.repository }}/commit/${HUGO_COMMIT_HASH}"
           hugo \
             --gc \
             --minify \
