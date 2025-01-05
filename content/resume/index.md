@@ -2,4 +2,5 @@
 title: "Resume"
 ---
 
-{{< pdf src="resume.pdf" height="600px">}}
+{{< pdf src="/resume.pdf" height="600px">}}
+
