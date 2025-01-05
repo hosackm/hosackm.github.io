@@ -8,4 +8,4 @@ resume:
 	qpdf --replace-input --pages . 1 -- content/resume/resume.pdf
 
 server:
-	hugo server
+	hugo server --buildDrafts
