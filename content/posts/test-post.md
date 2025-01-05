@@ -1,12 +1,14 @@
----
-title: "Example Post"
-date: 2024-08-20T09:05:01-07:00
-images:
-tags:
-  - test
-  - example
-  - markdown
----
++++
+title = "Template Post"
+date = 2024-08-21
+images = []
+tags = ["test", "example", "markdown"]
+draft = false
++++
+
+This is the summary that is parsed by Hugo.
+
+<!--more-->
 
 # Some Title
 

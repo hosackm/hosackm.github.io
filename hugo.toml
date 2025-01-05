@@ -1,17 +1,18 @@
-# using baseURL causes issues when using custom CSS
-# baseURL = 'https://hosack.me'
 relativeURLs = true
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = 'Matt Hosack'
 theme = 'cactus'
 disqusShortname = 'hosack-me'
 enableGitInfo = true
 
+# using baseURL causes issues when using custom CSS
+# baseURL = 'https://hosack.me'
+
 [params]
     subtitle = 'Software Engineer'
     mainSection = 'about'
     mainSectionTitle = 'Writings'
-    description = 'Welcome to the crossroads where rhythm meets code, and circuits hum with creativity. This space is a reflection of a life devoted to exploring the intersections of music and technology. From the nuances of sound design to the art of crafting elegant software solutions, my journey weaves these passions together. Here, I share thoughts, experiments, and insights drawn from years spent navigating the worlds of both artistry and engineering. Dive in, and explore the stories and ideas that bridge melody and innovation.'
+    description = 'Here you can read my musings on music, code, homebrewing, and other topics on my mind.'
     tocInline = true
     colortheme = 'dark'
     showProjectsList = true
@@ -59,3 +60,8 @@ enableGitInfo = true
 [[params.social]]
     name = 'linkedin'
     link = 'https://www.linkedin.com/in/matthosack/'
+
+[taxonomies]
+  genre = 'genres'
+  tag = 'tags'
+
