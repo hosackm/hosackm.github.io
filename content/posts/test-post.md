@@ -3,7 +3,7 @@ title = "Template Post"
 date = 2024-08-21
 images = []
 tags = ["test", "example", "markdown"]
-draft = false
+draft = true
 +++
 
 This is the summary that is parsed by Hugo.
