@@ -1,6 +1,6 @@
 all: build
 
-build: resume
+build:
 	hugo
 
 resume:
