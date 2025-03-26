@@ -2,5 +2,4 @@
 title = "Projects"
 +++
 
-Here are some projects I'm working on...
-
+* [zpotify](https://github.com/hosackm/zpotify) - a Spotify Web API Client written entirely in Zig.
