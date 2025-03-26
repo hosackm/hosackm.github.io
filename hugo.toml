@@ -60,7 +60,7 @@ enableGitInfo = true
 
 [[params.social]]
   name = 'email'
-  link = 'hosack.matt@gmail.com' # no need for 'mailto:' at the start
+  link = 'mailto:hosack.matt@gmail.com'
 
 [[params.social]]
   name = 'linkedin'
@@ -69,4 +69,3 @@ enableGitInfo = true
 [taxonomies]
   genre = 'genres'
   tag = 'tags'
-
