@@ -1,14 +1,14 @@
 {
     "list": [
         {
-            "name": "Dolby Atmos Music",
-            "url": "https://www.dolby.com/experience/apple-music/",
-            "desc": "Immersive sound on Apple Music."
-        },
-        {
             "name": "Ableton Live Packs",
             "url": "https://ableton.com/packs",
-            "desc": "Expand your sound library with Packs."
+            "desc": "I was responsible for the infrastructure that built, validated, and released sound content that influences musicians around the world."
+        },
+        {
+            "name": "Dolby Atmos Music",
+            "url": "https://www.dolby.com/experience/apple-music/",
+            "desc": "I wrote the containerized audio workflow for encoding music to Dolby Digital Plus in the cloud."
         }
     ]
 }
