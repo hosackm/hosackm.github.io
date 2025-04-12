@@ -17,7 +17,7 @@ enableGitInfo = true
   colortheme = 'dark'
   showProjectsList = true
   projectsUrl = 'https://github.com/hosackm'
-  logo = "images/mylogo.png"
+  logo = "images/cartoon_sm.webp"
 
 [params.meta]
   favicon = false

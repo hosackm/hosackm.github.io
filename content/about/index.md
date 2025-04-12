@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-![Rowboat Beer](/images/cafe_am_neuen_see.jpg "Matt drinking a beer in a rowboat")
+![Rowboat Beer](/images/cartoon_lg.webp "Matt drinking a beer in a rowboat")
 
 I'm Matt. I was born and rasied in the San Francisco Bay Area. I've been playing music since I was 5 years old. I got my first electric guitar (at age 11), and shortly after that used my first distortion pedal. In that moment I began what's become a lifelong pursuit to find new ways to use technology to create and manipulate sounds. I studied both Electrical Engineering and Music at [Sonoma State University](https://sonoma.edu). It was during this time that I fell in love with software engineering and programs like Ableton Live while spending late nights in the music department's recording studio.
 
