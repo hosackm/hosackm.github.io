@@ -8,5 +8,5 @@ draft = true
 
 Today I'm planning out my next beer; a single hop Hazy IPA using Solero hops.
 
-<!--more-->
+---
 

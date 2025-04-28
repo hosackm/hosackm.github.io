@@ -8,7 +8,7 @@ draft = true
 
 This is the summary that is parsed by Hugo.
 
-<!--more-->
+---
 
 # Some Title
 

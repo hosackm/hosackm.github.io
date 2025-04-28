@@ -14,6 +14,8 @@ That's not to say tools don't exist to provide you with all of these features. I
 This is in no way an exhaustive list of configuration values but merely a starting point.
 {{< /warning >}}
 
+---
+
 <!--more-->
 ## TLDR;
 You can check out my [gist](https://gist.github.com/hosackm/c3e34d75a1f4496b6f5aec1803aa2032#file-readme-md) if you don't feel like reading the article.

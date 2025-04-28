@@ -8,7 +8,7 @@ draft = false
 
 My favorite non-trivial Zig learnings while writing zpotify.
 
-<!--more-->
+---
 
 # Zpotify
 

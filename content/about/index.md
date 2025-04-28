@@ -4,11 +4,10 @@ title = "About"
 
 ![Rowboat Beer](/images/cartoon_lg.webp "Matt drinking a beer in a rowboat")
 
-I'm Matt. I was born and rasied in the San Francisco Bay Area. I've been playing music since I was 5 years old. I got my first electric guitar (at age 11), and shortly after that used my first distortion pedal. In that moment I began what's become a lifelong pursuit to find new ways to use technology to create and manipulate sounds. I studied both Electrical Engineering and Music at [Sonoma State University](https://sonoma.edu). It was during this time that I fell in love with software engineering and programs like Ableton Live while spending late nights in the music department's recording studio.
+I'm Matt, a software engineer originally from the San Francisco Bay Area. I grew up playing music and developed an early passion for using technology to create and manipulate sound. I studied Electrical Engineering and Music in university, where I fell in love with software engineering and music production tools like Ableton Live.
 
-After school I had a short stint at [THX](https://www.thx.com) (of Star Wars/George Lucas fame) and then cultivated my software engineering career at [Dolby](https://www.dolby.com). I worked on encoding technologies used by Apple and Netflix to stream Spatial Audio to your living room. I also lead the engineering effort to deliver the first containerized audio processing workflow used to encode [Dolby Atmos Music](https://www.dolby.com/experience/apple-music).
+After graduating, I began my career at [THX](https://thx.com) and later joined [Dolby](https://dolby.com), where I worked on streaming technologies used by Apple and Netflix, and led the engineering effort to deliver Dolby’s first containerized Atmos Music encoding workflow.
 
-In the throes of the 2020 pandemic, I moved to Berlin where I could make use of my Swiss/American dual-citizenship and start a life in Europe. I accepted a software engineering position at [Ableton](https://ableton.com) where I could work for the company that had inspired me musically for years. I worked on the Packs team -- building infrastructure to simplify the process of developing sound content for use in Live. This involved building tools for indexing and searching content, architecting custom CI solutions to integrate changes commited by designers, and developing static analysis tooling to validate the instruments, devices, and samples in our catalog.
+In 2020, I moved to Berlin and joined [Ableton](https://ableton.com), where I helped build infrastructure for developing and shipping Packs, the sound content used in Ableton Live. My work included building indexing and search tools, custom CI systems, and static analysis pipelines to validate instruments, devices, and samples.
 
-When I'm not working I enjoy playing piano and guitar, playing basketball and volleyball, and [homebrewing](https://share.brewfather.app/T5XOsCrEYNkTCT) to share with friends and family.
-
+Outside of work, I enjoy playing piano and guitar, playing basketball and volleyball, and [homebrewing](https://share.brewfather.app/T5XOsCrEYNkTCT) delicious beer for friends and family.
