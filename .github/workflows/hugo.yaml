@@ -23,6 +23,9 @@ jobs:
           hugo-version: '0.119.0'
           extended: true
 
+      - name: Clean Hugo cache
+        run: rm -rf resources public
+
       - name: Build
         run: hugo --minify
 
